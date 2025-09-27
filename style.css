@@ -1,0 +1,614 @@
+
+* {
+    margin: 0%;
+    scroll-behavior:smooth;
+    max-width: 100%;
+    box-sizing: border-box;
+    
+}
+body {
+    height: 500vh;
+    width: 100%;
+    display: flex;
+    background-color:black;
+    box-sizing: border-box;
+
+}
+
+#home-page {
+
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+
+
+
+
+}
+
+.bar {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+  
+}
+
+.bar1 {
+ font-family: "poppins",sans-serif;
+    width: 45%;
+    height: 10vh;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.name {
+    font-family: "poppins",sans-serif;
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    font-size: 80%;
+    color: #e0dee6;
+    align-items: center;
+}
+
+.bar a {
+    text-decoration: none;
+    color: rgb(17, 130, 210);
+}
+
+.bar1 a:hover {
+    background-color:black;
+    width: 49%;
+    height: 2vh;
+    border-radius: 10px;
+
+}
+
+.about {
+    background-color: white;
+    width: 50%;
+    height: 88%;
+    margin-left: 130px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+
+
+}
+
+
+.aboutme {
+    margin-left: 79px;
+    width: 60%;
+    height: 43%;
+    border-radius: 20px;
+    position: relative;
+    top: 40px;
+
+
+}
+
+.aboutme img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+h3 {
+     font-family: "poppins",sans-serif;
+    font-size: larger;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.about1 {
+    color: rgb(118, 119, 120);
+    font-size: larger;
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+
+.twitter {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 210px;
+    left: 110px;
+}
+
+.ab img:hover {
+    width: 26px;
+    height: 26px;
+    background-color: rgb(206, 201, 201);
+border-radius: 4px;
+}
+
+
+.instagram {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 210px;
+    left: 140px;
+
+}
+
+.email {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 210px;
+    left: 170px;
+
+}
+
+
+/* must add hover */
+#right-side {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    
+    
+}
+
+.Software {
+    color: white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 700%;
+    width: 100%;
+    height: 20vh;
+    margin-top: 10vh;
+
+
+}
+
+.eng {
+    color: rgb(95, 90, 90);
+    display: flex;
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 600%;
+    width: 100%;
+    height: 20vh;
+    margin-top: -4%;
+    /* margin-left: 2%; */
+
+}
+
+.me {
+    color: rgb(169, 162, 162);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+}
+
+#skills {
+    margin: 0;
+
+
+    width: 100%;
+    height: 600px;
+
+
+}
+
+.hed {
+    color: rgb(91, 82, 82);
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    margin-left: 30px;
+}
+
+.htmlimg {
+    width: 40%;
+    height: 40%;
+
+
+}
+
+.css {
+    width: 40%;
+    height: 40%;
+    position: relative;
+    left: 65px;
+}
+
+.java {
+    width: 30%;
+    height: 30%;
+    position: relative;
+    top: 70px;
+    left: 40px;
+}
+
+.python {
+    width: 30%;
+    height: 30%;
+    position: relative;
+    top: 70px;
+    left: 200px;
+
+}
+
+.hed2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 110px;
+    margin-left: 30px;
+    font-size: 600%;
+}
+
+.subhed {
+    color: rgb(95, 90, 90);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    margin-left: 30px;
+    font-size: 600%;
+
+}
+
+#mainpro {
+    max-width: 80%;
+    margin: auto;
+
+}
+
+.project {
+    border: 10px;
+    margin-top: 78px;
+    display: grid;
+    grid-template-rows: 310px 310px 310px 310px;
+    grid-gap: 40px;
+    
+}
+
+.project img {
+   width: 100%;
+    
+    border-radius: 20px;
+    height: 100%;
+}
+.b2{
+     border: 50px;
+     border-radius: 30px;
+  box-shadow:
+  0 20px 30px rgba(100, 96, 96, 0.7),   /* main bottom shadow */
+  0 10px 10px rgba(80, 74, 74, 0.05) inset; /* top highlight */
+
+
+
+}
+
+#contact {
+    width: 100%;
+    height: 580px;
+}
+
+.work {
+    color: white;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+
+}
+
+.to {
+    color: rgb(95, 90, 90);
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -8px;
+
+}
+
+.fname {
+    color: #a6a4ab;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.f1 {
+    background-color: rgb(95, 90, 90);
+    color: #a6a4ab;
+    border: none;
+    border-radius: 7px;
+    width: 40%;
+    height: 40px;
+    margin-left: 2px;
+}
+
+.fname2 {
+    color: #a6a4ab;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 41px;
+    left: 41px;
+}
+
+.f2 {
+    background-color: rgb(95, 90, 90);
+    color: #a6a4ab;
+    border: none;
+    border-radius: 7px;
+    width: 40%;
+    height: 40px;
+}
+
+.fname3 {
+    color: #a6a4ab;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.f3 {
+    font-size: large;
+    padding: 10px;
+    background-color: rgb(95, 90, 90);
+    color: #a6a4ab;
+    border: none;
+    border-radius: 7px;
+    width: 87%;
+    height: 130px;
+
+}
+
+button {
+    background-color: #F46C38;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 90%;
+    height: 35px;
+}
+
+
+.nn {
+    background-color: #F46C38;
+    width: 50px;
+    height: 50px;
+
+}
+#right-side{
+    max-width: 100%;
+}
+
+
+
+@media (max-width:1260px){
+
+     
+    
+
+ .name{
+    display: none;
+ }
+ .about{
+    margin-left: 4%;
+    width: 80%;
+    
+    
+
+ }
+ .about1{
+    font-size: medium;
+  position: relative;
+    top: 200px;
+    left: 20px;
+
+ }
+
+ .aboutme img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+.aboutme {
+    margin-left: 44px;
+    width: 70%;
+    height: 43%;
+    border-radius: 20px;
+    position: relative;
+    top: 40px;
+
+
+}
+h3{
+    position: relative;
+    left: 50px;
+}
+img.twitter{
+    position: relative;
+    left: 70px;
+
+}
+img.instagram{
+    position: relative;
+    left: 100px;
+}
+img.email{
+    position: relative;
+    left: 140px;
+
+}
+ .bar1{
+margin-left: 20px;
+
+ }
+ .Software{
+    font-size: 600%;
+}
+}    
+
+@media (max-width:576px){
+
+      body{
+        flex-direction: column;
+    
+
+      }
+ #home-page{
+    position: relative;
+    
+ }
+ .name{
+    display: none;
+ }
+ .aboutme {
+    margin-left: 45px;
+    width: 70%;
+    height: 43%;
+    border-radius: 20px;
+    position: relative;
+    top: 40px;
+
+
+}
+ .about{
+    width: 78%;
+    height: 80vh;
+    margin: auto;
+    box-sizing: border-box;
+    
+
+ }
+ h3{
+    font-size: large;
+    position: relative;
+    left: 58px;
+ }
+ .about1{
+    font-size: medium;
+    position: relative;
+    top: 150px;
+    left: 10px;
+
+ }
+ img.twitter{
+    position: relative;
+    left: 70px;
+     top: 170px;
+
+}
+img.instagram{
+    position: relative;
+    left: 100px;
+     top: 170px;
+}
+img.email{
+    position: relative;
+    left: 140px;
+    top: 170px;
+
+}
+ .bar1{
+    font-size: 8px;
+    width: 100%;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+
+ }
+ .Software{
+    font-size: 280%;
+    padding-left:7%;
+
+    
+
+ }
+ .eng{
+    font-size: 230%;
+    padding-left: 8%;
+    position: relative;
+    bottom:10vh;
+
+ }
+ .me{
+    padding: 6%;
+    position: relative;
+    bottom: 20vh;
+    
+ }
+ .hed2{
+font-size: 230%;
+margin-top: 100%;
+ }
+ .subhed{
+font-size: 220%;
+margin-top: 2%;
+ }
+
+       #skills{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          position: relative;
+          bottom: 5%;
+       }
+    .css{
+        position: relative;
+        top:10%;
+        left: auto;
+    }
+    .java{
+          position: relative;
+        top:20%;
+        left: auto;
+
+    }
+    .python{
+           position: relative;
+        top:30%;
+        left: auto;
+
+    }
+    .to{
+        font-size: 200%;
+        padding-top: 4%;
+        
+    }
+    .work{
+        font-size: 230%;
+    }
+    #contact{
+        padding-left: 10%;
+    }
+    .fname2{
+        display: flex;
+        
+        
+        position: relative;
+        top: 12px;
+        left: 1px;
+        
+        width: 11%;
+        
+
+        
+    }
+    .f2{
+              display: flex;
+        position: relative;
+        top: 20px;
+        left: 4px;
+        width: 70%;
+        
+
+
+    }
+    .f1{
+        width: 70%;
+    }
+}
+    
